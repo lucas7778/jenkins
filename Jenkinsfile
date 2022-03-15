@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'pip install -r unittest'
+        sh 'pip install unittest'
       }
     }
     stage('test') {
