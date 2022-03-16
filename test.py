@@ -1,10 +1,14 @@
-from app import Sum
 import unittest
+from extrator import MMQ
+
 
 class Test(unittest.TestCase):
-    def teste(self):
-        self.assertEqual(Sum.sum(10,5),15)
+
+    def test(self):
+        a = MMQ([1, 2, 3], [10, 20, 30])
+        b = a.mmq()
+        self.assertEqual()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
