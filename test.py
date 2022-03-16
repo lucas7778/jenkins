@@ -1,5 +1,5 @@
 import unittest
-from extrator import MMQ
+from app import MMQ
 
 
 class Test(unittest.TestCase):
